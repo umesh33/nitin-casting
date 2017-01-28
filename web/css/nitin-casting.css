@@ -1,0 +1,308 @@
+*{margin:0; padding:0;}
+ul,a{list-style:none; text-decoration:none;}
+img,input{border:none; outline:none;}
+body{font-family: 'dinpro-regularregular'; font-size:15px; color:#2d2d2d;}
+.clr{clear:both;}
+
+@font-face {
+    font-family: 'dinpro-regularregular';
+    src: url('dinpro-regular-webfont.eot');
+    src: url('dinpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dinpro-regular-webfont.woff') format('woff'),
+         url('dinpro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'Conv_FRAMDCN_0';
+	src: url('FRAMDCN_0.eot');
+	src: local('☺'), url('FRAMDCN_0.woff') format('woff'), url('FRAMDCN_0.ttf') format('truetype'), url('FRAMDCN_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_DINNEUZEITGROTESK-BOLDCOND-REGULAR';
+	src: url('DINNEUZEITGROTESK-BOLDCOND-REGULAR.eot');
+	src: local('☺'), url('DINNEUZEITGROTESK-BOLDCOND-REGULAR.woff') format('woff'), url('DINNEUZEITGROTESK-BOLDCOND-REGULAR.ttf') format('truetype'), url('DINNEUZEITGROTESK-BOLDCOND-REGULAR.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Flaticon";
+	src: url("framd10.eot");
+	src: url("framd10.eot#iefix") format("embedded-opentype"),
+	url("framd10.woff") format("woff"),
+	url("framd10.ttf") format("truetype"),
+	url("framd10.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "DINNeuzeitGro";
+	src: url("dinneuzeitgrotesk-boldcond-regular.eot");
+	src: url("dinneuzeitgrotesk-boldcond-regular.eot#iefix") format("embedded-opentype"),
+	url("dinneuzeitgrotesk-boldcond-regular.woff") format("woff"),
+	url("dinneuzeitgrotesk-boldcond-regular.ttf") format("truetype"),
+	url("dinneuzeitgrotesk-boldcond-regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNeuzeitGroteskBoldCondRegular';
+    src: url('dinneuzeitgrotesk-boldcond-regular.eot');
+    src: url('dinneuzeitgrotesk-boldcond-regular.eot') format('embedded-opentype'),
+         url('dinneuzeitgrotesk-boldcond-regular.woff2') format('woff2'),
+         url('dinneuzeitgrotesk-boldcond-regular.woff') format('woff'),
+         url('dinneuzeitgrotesk-boldcond-regular.ttf') format('truetype'),
+         url('dinneuzeitgrotesk-boldcond-regular.svg#DINNeuzeitGroteskBoldCondRegular') format('svg');
+}
+
+
+#header{width:100%; height:auto; float:left; padding:15px 0 0; background:#fff; position:fixed; z-index:999999;
+box-shadow: 0px 2px  25px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px  25px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 2px 25px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0px 2px 25px  rgba(0,0,0,0.6);}
+.top{width:1260px; height:auto; margin:0 auto; display:table;}
+.home{width:30%; float:right; height:auto; margin:1% 0;}
+.home ul li{float:right; margin:0 0 0 3%;}
+.logo{max-width:140px; width:11%; height:auto; float:left; position:relative;}
+.logo p{position:absolute; left:150px; bottom:-2px; color:#000;}
+.logo a img{width:98%; height:auto;}
+.menu{width:88%; height:auto; float:right; padding:0 0 1px 0;}
+.menu ul{width:90%; float:right;}
+.menu ul li{float:right; padding:0 0 0 2.5%;}
+.menu ul li a{font-family: "Flaticon"; font-size:14px; text-transform:uppercase; float:left; padding:0 0 10px 0; border-bottom:3px solid #fff; color:#000;}
+.menu ul li a:hover{border-bottom:3px solid #ed1c24;}
+.menu ul li a.active{border-bottom:3px solid #ed1c24;}
+#banner{width:100%; height:auto; float:left; position:relative; margin-top:7%;}
+#banner img{width:100% !important; height:auto; float:left;}
+.banner img{width:100% !important; height:570px !important;}
+#amazingslider-1{width:100% !important;}
+.amazingslider-space-0{width:100% !important; height:570px !important;}
+.amazingslider-img-0 img{height:610px !important;}
+#banner-animate{width:1260px; height:569px; margin:0 auto; display:table; position:absolute; top:0; left:3%;}
+.banner-animate{width:100%; height:100%; float:left; margin:0 20%;}
+/*.animate-box{width:17%; height:569px;  float:left; border-left:1px solid #a4a1a1; position:relative;}*/
+.animate-box{width:24.9%; height:569px;  float:left; border-left:1px solid #a4a1a1; position:relative;}
+.animate-box p{width:98%; float:left; padding:0 0 0 2%; color:#fff;  cursor:pointer;}
+.animate-text a{color:#fff; float:right; margin:1% 0 0 0;}
+.animate-text a:hover{text-decoration:underline;}
+#up{width:98%; float:left; padding:0 0 0 2%; background:rgba(0, 0, 0, 0.75); position:absolute; bottom:5%;}
+.scroll{width:3px; height:60px; background:#ee1d25; position:absolute; left:-1px;}
+.animate-box p strong{font-size:29px; color:#fff; float:left;}
+.animate-box p span{font-size:22px; color:#fff; float:left; clear:both;}
+.animate-text{width:98%; height:auto; float:left; padding:5% 2% 5% 0;}
+.animate-text p{cursor:default;}
+#vision{width:100%; height:auto; float:left; background:#000; position:relative;}
+.vision{width:1260px; height:auto; margin:0 auto; display:table; padding:1% 0;}
+.vision strong{font-size:21px; color:#ee1d25; float:right; text-transform:uppercase; padding:0 0 0.5%;}
+.vision p{color:#fff; font-size:14px; float:right; clear:both; text-align:right; width:40%; text-transform:uppercase;}
+.right{position:absolute; right:0; top:0; width:50.9%; height:auto;}
+.right img{width:100%; height:auto; display:none;}
+#welcome{width:100%; height:auto; float:left; padding:2% 0; background:url(../images/abc.png) 111.5% top no-repeat;}
+.welcome{width:1260px; height:auto; margin:0 auto; display:table;}
+.wel-text{width:60%; height:auto; float:left; padding:0 0 0 4%;}
+.wel-text h1{color:#ee1d25; font-family: "DINNeuzeitGroteskBoldCondRegular"; font-size:32px; padding:2% 0; text-transform:uppercase;}
+.wel-text h2{font-family: 'dinpro-regularregular'; font-weight:bold; color:#414141; font-size:21px; padding:2% 0;}
+.wel-text p{font-size:16px; color:#3e3e3e;}
+.wel-text ul li{padding:0 0 2% 0; list-style-image:url(../images/li-bg.jpg);}
+#content{width:100%; height:auto; float:left; background:url(../images/xyz.jpg) no-repeat 79% top fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;}
+.content-bg{background:url(../images/content-bg4.png) no-repeat 79% top fixed !important;}
+.content-top{width:1260px; height:auto; margin:0 auto; display:table;}
+.content-top h1{font-family: "DINNeuzeitGroteskBoldCondRegular"; text-align:left; color:#fff; padding:4% 0 0;}
+.content-top span{width:27%; margin:1% auto; display:table;}
+.our-product{width:96%; display:table; text-align:center; margin:0 auto; padding:2% 0 0;}
+.product-thumb{width:25%; height:auto; padding:3% 0 5%; display:inline-table; margin:3%; background:#222222; text-align:center; position:relative;}
+.product-thumb:hover{background:rgba(66, 62, 62, 0.55);}
+.product-thumb img{margin:0 0 2%;}
+.product-thumb p{width:70%; margin:0 auto; color:#fff; text-transform:uppercase; padding:3% 0 0 0; border-top:3px solid #505050; position:absolute; bottom:9%; left:15%;}
+.product-thumb:hover.product-thumb p{border-top:3px solid #ee1d25;}
+#download{width:100%; height:auto; float:left; padding:2% 0 4%;  background:url(../images/d.jpg) 142% top no-repeat; position:relative; overflow:hidden;}
+.download{width:1260px; height:auto; margin:0 auto; display:table; position:relative; z-index:999;}
+.brochure{width:40%; height:auto; float:left; padding:0;}
+.brochure p{font-size:21px; color:#222222;}
+.brochure p a img{float:left;}
+.pro-bro p a img{float:right;}
+.brochure p strong{float:left; font-size:21px; color:#222222; padding:0 0 0 4%; line-height:104px;}
+.address{width:57%; height:auto; float:left;  margin:8% 0 0 3%;}
+.address h4{color:#4b4b4a; font-size:17px; padding-bottom:2%;}
+.address h5{color:#3e3e3e; font-size:15px; padding-bottom:2%;}
+.address p{color:#3e3e3e; font-size:15px;}
+.videos{width:30%; height:auto; float:right;}
+.videos p{padding-bottom:3%; text-align:center;}
+.videos a{width:100%; height:auto; float:left;}
+.videos a img{width:100%; height:auto; float:left;}
+#footer{width:100%; height:auto; float:left; background:#000;}
+.footer{width:1260px; height:auto; margin:0 auto; display:table;}
+.footer ul li{float:left; padding:2% 0 2% 2%;}
+.footer ul li a{float:left; color:#fff; font-size:12px; text-transform:uppercase;}
+.footer p{float:right; padding:2% 0; font-size:12px; color:#fff;}
+.minu{display:none;}
+#topcontrol{display:none;}
+.mobAnimate{display:none;}
+.mobDonw{display:none;}
+
+/**************************************************Profile********************************************************/
+
+.heading{width:55%; height:79px; background:url(../images/heading-bg.png) left top no-repeat; float:right; position:absolute; right:0; bottom:0;}
+.heading h1{font-family: "DINNeuzeitGroteskBoldCondRegular"; font-size:33px; color:#fff; text-transform:uppercase; float:right; line-height:79px;
+margin-right:10%;}
+#profile{width:100%; height:auto; float:left; position:relative;}
+.pro-leftBg{position:absolute; bottom:0; left:0;}
+.profile{width:1260px; height:auto; min-height:600px; margin:0 auto; display:table; border-top:10px solid #c3c3c3; background:url(../images/profile-r-bg.png) 13% top no-repeat;}
+.profile-text{width:75%; height:auto; float:right; margin:3% 0 5%; position:relative; z-index:99;}
+.profile-text p{padding:1% 0;}
+.space{width:100%; height:auto; float:left; background:#202020; padding:2% 0;}
+.add-bg{background:#2d2d2d !important; padding:1% 0 !important;}
+.pro-bro strong{color:#fff; float:right; padding:18px 0 0 10px;}
+.pro-bro{width:100%;}
+.getintouch{width:96%; height:auto; float:left; clear:both; background:#212121; position:relative; z-index:999; margin:0; padding:2%;
+border-radius: 10px; 
+-ms-border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px;}
+.getintouch h1{color:#fff; padding:0; float:left; font-size:20px;}
+.getintouch input{float:left; width:39%; height:30px; background:#ebebeb; margin:0; padding:0 2%;
+border-radius: 10px; 
+-ms-border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px;}
+.getintouch input.name-space{margin-right:2%; width:50%;}
+.getintouch textarea{float:left; width:97.5%; height:65px; outline:none; background:#ebebeb; margin:2% 0; padding:1%;
+border-radius: 10px; 
+-ms-border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px;}
+.getintouch input.submit{width:25%; float:right; clear:none; margin:0 0 0 2%; background:#000; color:#fff; cursor:pointer;}
+.pro-address{width:100%; height:auto; float:right; margin:0; text-align:right;}
+.pro-address h2{border-bottom:1px solid #585858; width:100%; color:#fff; padding:0 0 3%; font-size:18px;}
+.pro-address h3{color:#e0e0e0; padding:2% 0; font-size:15px;}
+.pro-address p{color:#e0e0e0; font-size:15px; padding:1% 0; width:100%;}
+.cross-bg{position:absolute; top:-100%; left:30%;}
+
+.download-left{width:50%; float:left;}
+.download-right{width:45%; float:right;}
+
+
+/**************************************************Industry We Serve********************************************************/
+
+.serve{width:50%; height:auto; float:left;}
+.serve ul{width:80%; float:right;}
+.serve ul li{background:url(../images/li-bg.jpg) left center no-repeat; padding:0.5% 4%; font-size:20px;}
+
+/**************************************************Clientelle********************************************************/
+
+.client{width:45%; height:auto; float:left; padding:1% 0 1% 3%;}
+.client h2{font-family: 'dinpro-regularregular'; font-weight:bold; color:#414141; text-transform:uppercase; width:83%; float:left; font-size:18px; padding:2% 0;}
+.client ul{width:80%; float:left;}
+.client ul li{list-style-image:url(../images/li-bg.jpg); padding:0.5% 0;}
+#client{width:100%; height:auto; float:left;}
+#client h1{border-bottom:1px solid red; color:red; padding:2% 0 0; font-size:26px; text-transform:uppercase;}
+
+/**************************************************Contact********************************************************/
+
+.contact{width:100%; height:auto; float:left; padding:2% 0; clear:both;}
+.contact h2{padding:2% 0;}
+.contact table th{text-align:left; vertical-align:top; padding:1% 0;}
+.contact table th span{float:right;}
+.contact table td{text-align:left; vertical-align:top; padding:1% 0 1% 5%;}
+.contact table td a{color: #2d2d2d;}
+.map{width:100%; height:auto; margin:0; float:left; display:table; padding:0%;}
+.map img{width:100%; height:auto;}
+.map-one{width:29%; height:auto; margin:1%; padding:1% 0; float:left; border:1px solid rgba(128, 128, 128, 0.60); padding:1%;}
+.map-one img{width:100%; height:auto;}
+.mapmob{display:none;}
+.overlay{display:none;}
+.contact-touch{width:64%; clear:none; float:right; margin:2% 0 0; padding:3%;}
+.contact-touch input{width:96%; margin:2% 0;}
+.contact-touch textarea{height:120px;}
+.contact-left{width:50%; height:auto; float:left;}
+.contact-right{width:50%; height:auto; float:right;}
+.contact-touch input.submit{width: 25%;float: right;clear: none;margin:2% 0 0 2%;background: #000;color: #fff;cursor: pointer;}
+.space-contact{padding:0;}
+.contact-pdf{width:98% !important;}
+.contact-pdf p a{width:8% !important;}
+
+
+/**************************************************Centrifugal Casting********************************************************/
+
+.centrifugal{width:75%; height:auto; float:right; margin:3% 0 5%; position:relative; z-index:99;}
+.centrifugal h4{padding:3% 0 0; color:red;}
+.centrifugal strong{padding:1% 1.5%; display:block; background:url(../images/li-bg.jpg) left center no-repeat;}
+.centrifugal p{font-size:13px; padding:0.5% 0 0.5% 1.5%; margin:0 0 0 1%; background:url(../images/bullet.png) left center no-repeat;}
+.centrifugal p span{font-weight:bold; padding:0; float:left;}
+
+/**************************************************Investment Casting********************************************************/
+
+ul.investment{list-style-image:url(../images/bullet.png); padding:1% 0; margin:0 0 0 3%;}
+.compare{width:100%; height:auto; float:left; padding:0; position:relative;z-index:99;}
+.compare strong{background:none; padding:1% 0; color:red;}
+.compare table{margin:2% 0;}
+.compare table th{padding:1%; background:rgba(128, 128, 128, 0.80); border-bottom:3px solid #fff; border-left:3px solid #fff;}
+.compare table td{padding:1%; background:rgba(128, 128, 128, 0.40); border-bottom:3px solid #fff; border-left:3px solid #fff;text-align:center;}
+.compare table th{text-align:center;}
+.casting-img{width:30%; height:auto; float:left; padding:1%; border: 1px solid rgba(128, 128, 128, 0.60); margin:2%;}
+.casting-img img{width:100%; height:auto; float:left;}
+
+/**************************************************Research and Development********************************************************/
+
+.centrifugal h1{text-transform:uppercase; color:red; padding:0 0 1%;}
+.research{width:100%; height:auto; float:left; margin:2% 0;}
+.research table{vertical-align:top;}
+.research table th{text-align:left; padding:1%; background:rgba(128, 128, 128, 0.80); border-bottom:3px solid #fff; border-left:3px solid #fff;}
+.research table td{text-align:left; padding:1%; background:rgba(128, 128, 128, 0.40); border-bottom:3px solid #fff; border-left:3px solid #fff;}
+.design{width:100%; height:auto; float:left; margin:2% 0;}
+.design p{background:none; padding-left:0; margin:0;}
+.design h1{text-transform:uppercase; color:red; padding:1.5% 0 1%; font-size:20px;}
+
+/**************************************************ProductS & Manufacturing********************************************************/
+
+.product{width:100%; height:auto; float:left;}
+.product h1{padding:0 0 2%; text-transform:uppercase; color:red;}
+.product-text{width:50%; height:auto; float:left; padding:0 0 2% 0;}
+.product-text strong{font-size:18px; padding:0 0 1% 15px; background:url(../images/li-bg.jpg) left center no-repeat;}
+.product-text ul{width:93%; margin:0 0 0 7%;}
+.product-text ul li{list-style-image:url(../images/bullet.png); padding:1% 0;}
+.manufacturingRange{width:100%; height:auto; float:left; padding:1% 0;}
+.manufacturingRange strong{font-size:18px; padding:0 0 1%; background:none;}
+.manufacturingRange table{border:3px solid #fff;}
+.manufacturingRange table th{background:rgba(128, 128, 128, 0.80); padding:1.5% 0; border-bottom:3px solid #fff; border-left:3px solid #fff;}
+.manufacturingRange table td{background:rgba(128, 128, 128, 0.40); padding:1%; border-bottom:3px solid #fff; border-left:3px solid #fff;;}
+.manufacturingRange table td.tdcolor{background:rgba(128, 128, 128, 0.60); font-weight:bold;}
+.manufacturing{width:100%; height:auto; float:left; padding:3% 0 0 0;}
+.manufacturing h1{padding:0 0 2%; text-transform:uppercase; color:red;}
+.manufacturing-text{width:50%; height:auto; float:left; padding:0 0 2% 0;}
+.manufacturing-text strong{font-size:18px; padding:0 0 1% 15px; background:url(../images/li-bg.jpg) left center no-repeat;}
+.manufacturing-text ul{width:93%; margin:0 0 0 7%;}
+.manufacturing-text ul li{list-style-image:url(../images/bullet.png); padding:1% 0;}
+.product-text-right{float:right; width:40%;}
+.manufacturing-text-right{width:40%; float:right;}
+.manufacturing-text-right p{background:none;}
+.pro-address p span{}
+.pro-address p.email{width:100%;}
+.product-txt-img{width:100%; height:auto; float:left; padding-bottom:3%;}
+.product-img{width:30%; height:auto; float:left; padding:1%; border: 1px solid rgba(128, 128, 128, 0.60);}
+.product-img img{width:100%; height:auto; float:left;}
+.manufacturing-txt-img{width:100%; height:auto; float:left; padding-bottom:3%;}
+ 
+/**************************************************Achievement********************************************************/
+
+.achievement{width:75%; height:auto; float:right; margin:3% 0 5%; position:relative; z-index:99;}
+.achievement h1{padding:0 0 2%; text-transform:uppercase; color:red;}
+.achievement ul li{padding:0 0 2% 0; list-style-image:url(../images/li-bg.jpg);}
+
+/**************************************************Investor-relationship********************************************************/
+
+.financial{width:100%; height:auto; float:left;}
+.financial h2{ont-size:18px; padding:0 0 1% 15px; background:url(../images/li-bg.jpg) left center no-repeat;}
+.financial ul{margin:0 0 0 3%;}
+.financial ul li{list-style-image:url(../images/bullet.png); padding:1% 0;}
+.financial ul li a{color:#2d2d2d; font-size:15px;}
+.financial ul li a:hover{color:red; text-decoration:underline;}
