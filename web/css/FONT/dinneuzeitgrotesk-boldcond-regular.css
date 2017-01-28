@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'DINNeuzeitGroteskBoldCondRegular';
-    src: url('dinneuzeitgrotesk-boldcond-regular.eot');
-    src: url('dinneuzeitgrotesk-boldcond-regular.eot') format('embedded-opentype'),
-         url('dinneuzeitgrotesk-boldcond-regular.woff2') format('woff2'),
-         url('dinneuzeitgrotesk-boldcond-regular.woff') format('woff'),
-         url('dinneuzeitgrotesk-boldcond-regular.ttf') format('truetype'),
-         url('dinneuzeitgrotesk-boldcond-regular.svg#DINNeuzeitGroteskBoldCondRegular') format('svg');
-}
